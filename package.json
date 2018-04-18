@@ -1,0 +1,40 @@
+{
+  "name": "react-style-guide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@storybook/addon-notes": "^3.4.1",
+    "bourbon": "^5.0.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9010 -c .storybook -s ./public",
+    "build-storybook": " build-storybook  -c .storybook -s ./public -o .out"
+  },
+  "devDependencies": {
+    "@storybook/addon-graphql": "^3.4.1",
+    "@storybook/addon-info": "^3.4.1",
+    "@storybook/addon-knobs": "^3.4.1",
+    "@storybook/addon-notes": "^3.4.1",
+    "@storybook/addon-storysource": "^3.4.1",
+    "@storybook/addon-viewport": "^3.4.1",
+    "@storybook/react": "^3.4.1",
+    "babel-core": "^6.26.0",
+    "create-react-class": "^15.6.3",
+    "file-loader": "^1.1.11",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.8.3",
+    "prop-types": "^15.6.1",
+    "sass-loader": "^6.0.7",
+    "storybook-addon-i18n-tools": "^1.0.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
